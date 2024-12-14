@@ -3,9 +3,13 @@ var isEnd = false;
 var flag = false;
 var flagX = false;
 var flagAdd = false;
-function getKeyword(key) {
-  var key = document.getElementById("key").value;
-  return document.getElementById("key").value;
+function getKeyword() {
+  if (document.getElementById("key").value == "") {
+    alert("Enter A Valid Key");
+  } else {
+    var key = document.getElementById("key").value;
+    return document.getElementById("key").value;
+  }
 }
 
 function getString() {

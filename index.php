@@ -6,6 +6,11 @@
       </div>
 
       <div id="container">
+        <div class="images d-flex justify-content-around">
+          <img src="img/NCTU.png" width="300" height="300" class="rounded float-start" alt="...">
+          <img src="img/logo1.png" width="300" height="300" class="rounded float-end" alt="...">
+        </div>
+
         <div class="text fs-2 d-flex justify-content-center align-item-center text-center">
           <p class="text-type">Cryptolio NCTU For Encryption & Decryption</p>
         </div>
@@ -19,19 +24,15 @@
 
         <div class="text fs-2 d-flex justify-content-center align-item-center text-center">
           <p class="text-type" style="color:slateblue;">
-            Created by: Abelrahem Hussien Ali & Abdallah Mohamed Mahmoud
+            Created by: <a href="https://0xmekky.github.io/home/" style="text-decoration: none; color:slateblue;" target="_blank">Abelrahem Hussien Ali</a> & <a style="text-decoration: none; color:slateblue;" href="https://www.linkedin.com/in/abdallhmohamedmahmoudahmed" target="_blank">Abdallah Mohamed Mahmoud</a>
           </p>
         </div>
 
         <div class="text fs-2 d-flex justify-content-center align-item-center text-center">
           <p class="text-type fs-1">
-            Submitted to: Dr. Ramy.
+            Submitted to: Dr. Ramy Ageeb. <br>
+            <span class="fs-2">Submitted to: Eng. Eman Osama</span>
           </p>
-        </div>
-
-        <div class="images d-flex justify-content-around">
-          <img src="img/NCTU.png" width="400" height="400" class="rounded float-start" alt="...">
-          <img src="img/logo1.png" width="400" height="400" class="rounded float-end" alt="...">
         </div>
 
       </div>
