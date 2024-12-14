@@ -8,10 +8,10 @@
       <p class="text-type">DES Encryption & Decryption</p>
     </div>
     <div class="form p-5 d-flex justify-content-center align-item-center">
-      <form class="p-4 border border-3" style="width: 70%;" name="stuff" action="" method="">
+      <form class="p-4 border border-3" style="width: 70%;" name="stuff" action="SaveItToFile/DES.php" id="desForm" method="POST">
 
         <label for="indata" valign="top">Message</label>
-        <input class="form-control" id="indata" type="text">
+        <input class="form-control" name="InData" id="indata" type="text">
 
         <div class="form-check mt-2">
           <input class="form-check-input" type="radio" id="intype-ascii" name="intype" value="ASCII">
@@ -31,6 +31,7 @@
 
         <input class="btn btn-primary my-3" type="button" value="DES Encrypt" onclick="do_des(true);">
         <input class="btn btn-success my-3" type="button" value="DES Decrypt" onclick="do_des(false);">
+        <input class="btn btn-info my-2" type="submit" name="submit" value="Save as file">
 
         <div class="form-floating">
           <textarea class="form-control" name="outdata" size="20" id="outdata"></textarea>

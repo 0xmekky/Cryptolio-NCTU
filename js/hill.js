@@ -81,6 +81,14 @@ function doHill(isEncrypt) {
     document.getElementById("result").textContent = isEncrypt
       ? `Encrypted Text: ${vectorToText(result)}`
       : `Decrypted Text: ${vectorToText(result)}`;
+
+    let hillForm = document.getElementById("hillForm");
+    let hillResult = document.createElement("input");
+    hillResult.value = document.getElementById("result").textContent;
+    hillResult.name = "result";
+    hillResult.style.display = "none";
+    hillResult.type = "text";
+    hillForm.appendChild(hillResult);
   } catch (error) {
     document.getElementById("result").textContent = `Error: ${error.message}`;
   }

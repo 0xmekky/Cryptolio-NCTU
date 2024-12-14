@@ -133,6 +133,16 @@ function cipher() {
   }
   document.getElementById("printValue").innerHTML = enCodeStr;
   // alert("Добавили букву в середине слова? - " + flagAdd);
+
+  let playForm = document.getElementById("playForm");
+
+  let encMsg = document.createElement("input");
+  encMsg.name = "EncMsg";
+  encMsg.value = document.getElementById("printValue").textContent;
+  encMsg.type = "text";
+  encMsg.style.display = "none";
+  playForm.appendChild(encMsg);
+
   return enCodeStr;
 }
 
@@ -224,6 +234,15 @@ function deCodeCipher() {
     text.pop();
   }
   text = text.join("");
-  console.log(text);
+  //console.log(text);
   document.getElementById("printDeCode").innerHTML = text;
+
+  let playForm = document.getElementById("playForm");
+  let printDeCode = document.getElementById("printDeCode");
+  let dencMsg = document.createElement("input");
+  dencMsg.name = "DencMsg";
+  dencMsg.value = printDeCode.innerHTML;
+  dencMsg.style.display = "none";
+  dencMsg.type = "text";
+  playForm.appendChild(dencMsg);
 }
