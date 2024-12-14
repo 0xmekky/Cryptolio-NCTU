@@ -24,7 +24,7 @@
 
         <div class="text fs-2 d-flex justify-content-center align-item-center text-center">
           <p class="text-type" style="color:slateblue;">
-            Created by: <a href="https://0xmekky.github.io/home/" style="text-decoration: none; color:slateblue;" target="_blank">Abelrahem Hussien Ali</a> & <a style="text-decoration: none; color:slateblue;" href="https://www.linkedin.com/in/abdallhmohamedmahmoudahmed" target="_blank">Abdallah Mohamed Mahmoud</a>
+            Created by: <a href="https://0xmekky.github.io/home/" style="text-decoration: none; color:slateblue;" target="_blank">Abelrahem Hussien Ali</a> & <a style="text-decoration: none; color:slateblue;" href="https://www.linkedin.com/in/abdallhmohamedmahmoudahmed" target="_blank">Abdallah Mohamed Mahmoud</a> & <a style="text-decoration: none; color:slateblue;" href="https://www.linkedin.com/in/ali-ezzeldeen" target="_blank">Ali Ezzeldeen</a>
           </p>
         </div>
 
