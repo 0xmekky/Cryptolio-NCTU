@@ -3,6 +3,7 @@
 $fileTemp = tempnam(sys_get_temp_dir(), 'temp_file');
 $fileContent = [
     'InData'       => $_POST['InData'],
+    'Encryption'   => $_POST['encMsg'],
     'intype'   => $_POST['intype'],
     'key'      => $_POST['key'],
     'keyb'      => $_POST['keyb'],

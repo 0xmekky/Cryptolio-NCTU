@@ -136,7 +136,6 @@ function cipher() {
     enCodeStr = enCodeStr + coord1 + coord2;
   }
   document.getElementById("printValue").innerHTML = enCodeStr;
-  // alert("Добавили букву в середине слова? - " + flagAdd);
 
   let playForm = document.getElementById("playForm");
 

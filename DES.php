@@ -13,6 +13,13 @@
         <label for="indata" valign="top">Message</label>
         <input class="form-control" name="InData" id="indata" type="text">
 
+        <div>
+          <input class="btn btn-primary my-3" id="asciiBtn" type="button" value="ASCII Encrypt">
+          <input class="btn btn-success my-3" id="hexBtn" type="button" value="Hexadecimal Encrypt" onclick="">
+        </div>
+        <label for="indata" valign="top">Encryption</label>
+        <input class="form-control" name="encMsg" id="EncValue" type="text">
+
         <div class="form-check mt-2">
           <input class="form-check-input" type="radio" id="intype-ascii" name="intype" value="ASCII">
           <label class="form-check-label" for="intype-ascii" style="cursor: pointer;">ASCII</label>
