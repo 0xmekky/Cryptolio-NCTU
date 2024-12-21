@@ -15,7 +15,7 @@
 
         <div>
           <input class="btn btn-primary my-3" id="asciiBtn" type="button" value="ASCII Encrypt">
-          <input class="btn btn-success my-3" id="hexBtn" type="button" value="Hexadecimal Encrypt" onclick="">
+          <input class="btn btn-success my-3" id="hexBtn" type="button" value="Hexadecimal Encrypt">
         </div>
         <label for="indata" valign="top">Encryption</label>
         <input class="form-control" name="encMsg" id="EncValue" type="text">
